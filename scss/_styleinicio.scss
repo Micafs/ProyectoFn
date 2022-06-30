@@ -1,0 +1,90 @@
+.tarjetas {
+    width: 80%;
+    margin: 60px auto;
+}
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card {
+    width: 30%;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.card-header {
+    text-align: center;
+    padding: 50px 10px;
+    background:url(../imagenes/img.Galearia.jpg);
+    background-size:cover;
+    color: #fff;
+}
+
+.card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.card-body .btn {
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #f00e438a, #e66a5471);
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+.headingprimary {
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+
+
+.card{
+    
+    width: 30%;
+    height: auto;
+    margin: auto;
+    }
+
+
+
+
+
+.redes01{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: flex-end;
+    right: 5px;
+    }
+
+
+    
+    

@@ -1,0 +1,68 @@
+/*van para todas las paginas*/
+
+.header{
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content:end;
+    
+}
+
+
+nav_index{
+    font-family: 'Merienda', cursive;
+    position: fixed;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    padding: 20px;
+}
+
+nav ul li{
+    transition: transform .5s;
+    
+}
+
+nav ul li:hover{
+    transform: scale(1.5);
+    
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: $colorblanco;
+}
+
+.logo{
+    height: 90px;
+}
+
+.colornav{
+    background-color: #cc969670;
+}
+
+.navderecha{
+justify-content: end;
+
+}
+
+.navbar-nav{
+    font-size: 25px;
+    
+}
+
+.nav-link{
+margin: 15px;
+}
+
+
+
+/*termina el nav*/

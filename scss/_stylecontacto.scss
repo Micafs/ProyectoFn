@@ -1,0 +1,33 @@
+/*contacto*/
+
+
+/*#marco{
+    padding: 200px;
+}*/
+
+.form-label{
+    color: white;
+    font-size: 1.7rem;
+    
+    
+}
+
+.mb-3 {
+    /* width: 20%; */
+    display: list-item;
+    margin: auto;
+    width: fit-content;
+    list-style: none;
+}
+
+
+
+
+.redes-contacto{
+    display: flex;
+    position:fixed;
+    bottom: 0;
+    justify-content: flex-end;
+    right: 5px;
+    text-align: right;
+}

@@ -1,0 +1,11 @@
+@mixin fontSize ($size) {
+    font-size: $size;
+}
+
+.letrasTexto {
+    @include fontSize(18px); 
+}
+
+.letrasTitulo {
+    @include fontSize(40px); 
+}

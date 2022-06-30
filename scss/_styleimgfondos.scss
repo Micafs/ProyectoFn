@@ -1,0 +1,27 @@
+/* backgroun- repeat: no repeat// backgraund position:center center(para centrar la imagen) backgraund attachmen(para qu   aimagen quede fija*/
+.body-img{
+    background:url(../imagenes/img.Galearia.jpg) no-repeat center center fixed;
+    background-size: cover;
+}  
+
+
+.body-img-inicio{
+    background:url(../imagenes/POSIBLEFONDOINI.jpg) no-repeat center center fixed;
+    background-size: cover;     
+}
+
+
+.body-img-nosotros{
+    background:url(../imagenes/img.nosotros) no-repeat center center fixed;
+    background-size: cover;  
+}
+
+.body-img-galeria{
+    background:url(../imagenes/posible\fondo.jpg) no-repeat center center fixed;
+    background-size: cover;  
+}
+
+.body-img-contacto{
+    background:url(../imagenes/GettyImages-612733208-e1523025017244.webp) no-repeat center center fixed;
+    background-size: cover;  
+}

@@ -1,0 +1,38 @@
+/*Galearia*/
+
+
+.img-galeria{
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding: 50px 0;
+}
+
+.galery{
+    margin: auto;
+    width: 90%;
+}
+
+.slide{
+    width:90%;
+    margin:10px;
+    padding:5px;
+    
+}
+
+.redes-galeria{
+    display: flex;
+    position:fixed;
+    bottom: 0;
+    justify-content: flex-end;
+    right: 5px;
+    
+}

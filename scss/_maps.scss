@@ -1,0 +1,7 @@
+$color:(
+        primary:rgb(217, 223, 230)
+    );
+
+.headingprimary{
+    color: map-get($map: $color, $key: primary);
+}
